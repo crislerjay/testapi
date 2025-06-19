@@ -34,8 +34,3 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(() => {
     console.log('connection failed!');
   })
-//     res.status(200).json({message: 'Product deleted successfully!'})
-//   } catch (error) {
-//     res.status(500).json({message: error.message})
-//   }
-// })
